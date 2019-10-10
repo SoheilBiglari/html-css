@@ -10,5 +10,5 @@ BeCode javascript projecten
 * [flexbox-minefield](https://soheilbiglari.github.io/html-css/flexbox-minefield/flex-box.html)
 * [multipage-application-master](https://soheilbiglari.github.io/html-css/multipage-application-master/index.html)(group project)
 * [responsive-cinema-page](https://soheilbiglari.github.io/html-css/responsive-cinema-page/index.html)
-* [responsive-cinema-page](https://soheilbiglari.github.io/html-css/sasspanel-master/index.html)
-
+* [sasspanel-master](https://soheilbiglari.github.io/html-css/sasspanel-master/index.html)
+* [/storage-group-project](https://soheilbiglari.github.io/html-css/storage-group-project/storage.html)
