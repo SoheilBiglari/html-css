@@ -1,0 +1,459 @@
+@import "variables";
+@import "reset";
+@import "components";
+@import "mixin";
+/*
+.container-1 {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.container-1 > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+*/
+.container-1 {
+  display: grid;
+  grid-template-columns: 320px 400px 400px 400px 400px;
+  grid-template-rows: 100px auto;
+  grid-template-areas: "a m m m m " "a b c d e" "a f f g g" "a h h i i" "a j j k k " "a l l l l";
+}
+
+.head {
+  .icons {
+    i {
+      &:hover {
+        transform: scale(1.4);
+        transition: 0.3s;
+      }
+    }
+  }
+}
+
+.nav {
+  grid-area: a;
+}
+
+.hallo {
+  grid-area: b;
+  @include statistics ($primary, $primary);
+  @include blur;
+  @include inset;
+}
+
+.hallo {
+  @extend %statistics;
+}
+
+.derp {
+  grid-area: c;
+  @include statistics ($succes, $succes);
+  @include blur;
+  @include inset;
+}
+
+.derp {
+  @extend %statistics;
+}
+
+.tasks {
+  grid-area: d;
+  @include statistics ($info, $info);
+  @include blur;
+  @include inset;
+}
+
+.tasks {
+  @extend %statistics;
+}
+
+.help-me {
+  grid-area: e;
+  @include statistics ($warning, $warning);
+  @include blur;
+  @include inset;
+}
+
+.help-me {
+  @extend %statistics;
+}
+
+.overview {
+  grid-area: f;
+  @include boxstyle;
+  @include blur;
+
+  .graph {
+    background-image: url("images/graph.png");
+    height: 20rem;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    max-width: 100%;
+  }
+}
+
+.revenue {
+  grid-area: g;
+  @include boxstyle;
+  @include blur;
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition-duration: 1.5s;
+    -moz-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    overflow: hidden;
+
+    &:hover {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+    }
+  }
+}
+
+.dots {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  p {
+    font-size: 12px;
+
+    i {
+      color: $primary;
+    }
+  }
+}
+
+.dots {
+  p:nth-child(2) {
+    i {
+      color: $succes;
+    }
+  }
+}
+
+.dots {
+  p:last-child {
+    i {
+      color: $info;
+    }
+  }
+}
+
+.projects {
+  grid-area: h;
+  @include boxstyle;
+  @include blur;
+
+  .progress-bar-wrapper {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 25px;
+  }
+
+  .progress-bar {
+    @include progressbar;
+  }
+
+  .progress-bar-fill-one {
+    @include progressbarfill ($danger);
+
+    &:hover {
+      background: rgb(255,167,90);
+      background: linear-gradient(90deg, rgba(255,167,90,1) 0%, rgba(231,74,59,1) 51%, rgba(255,167,90,1) 100%);
+    }
+  }
+
+  .progress-bar-fill-two {
+    @include progressbarfill ($warning);
+  }
+
+  .progress-bar-fill-three {
+    @include progressbarfill ($primary);
+  }
+
+  .progress-bar-fill-four {
+    @include progressbarfill ($info);
+  }
+
+  .progress-bar-fill-five {
+    @include progressbarfill ($succes);
+  }
+
+  .progress-text {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.illustrations {
+  grid-area: i;
+  @include boxstyle;
+  @include blur;
+}
+
+.illu-content {
+  margin: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  img {
+    display: block;
+    margin: auto;
+    width: 25rem;
+    vertical-align: middle;
+    border-style: none;
+  }
+}
+
+.colors {
+  grid-area: j;
+  display: flex;
+  flex-flow: row wrap;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 45%;
+  }
+}
+
+.colors {
+  div:first-child {
+    @include colors ($primary, $white);
+    @include blur;
+    @include inset;
+  }
+}
+
+.colors {
+  div:nth-child(2) {
+    @include colors ($succes, $white);
+    @include blur;
+    @include inset;
+  }
+}
+
+.colors {
+  div:nth-child(3) {
+    @include colors ($info, $white);
+    @include blur;
+    @include inset;
+  }
+}
+
+.colors {
+  div:nth-child(4) {
+    @include colors ($warning, $white);
+    @include blur;
+    @include inset;
+  }
+}
+
+.colors {
+  div:nth-child(5) {
+    @include colors ($danger, $white);
+    @include blur;
+    @include inset;
+  }
+}
+
+.colors {
+  div:last-child {
+    @include colors ($secondary, $white);
+    @include blur;
+    @include inset;
+  }
+}
+
+.development {
+  grid-area: k;
+  @include boxstyle;
+  @include blur;
+}
+
+.dev-content {
+  margin: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.footer {
+  grid-area: l;
+}
+
+.head {
+  grid-area: m;
+}
+
+.head {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 13fr 3fr 2fr;
+}
+
+.dev-header,
+.illu-header,
+.overview-header,
+.projects-header,
+.revenue-header {
+  @include cardheader;
+}
+
+form input {
+  width: 40%;
+  height: 60%;
+  margin-top: 15px;
+}
+
+form button {
+  font-size: 20px;
+  background-color: #4e73df;
+  color: white;
+}
+
+.fa-bell:before {
+  font-size: 30px;
+  color: #fff4e6;
+  margin: 10px;
+}
+
+.fa-envelope:before {
+  font-size: 30px;
+  color: #fff4e6;
+}
+
+.icons {
+  display: grid;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+}
+/* sidebar-----------------  */
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: $primary;
+  color: $background;
+  list-style: none;
+
+  .link-sb {
+    color: $white;
+    @extend %sidebar;
+    font-size: 28px;
+    @extend %links;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .fa-laugh-wink {
+      font-size: 38px;
+      transform: rotate(-20deg);
+      @include padding ($right: 20px);
+    }
+  }
+
+  .dashboard {
+    @extend %sidebar;
+
+    .dashboard-link {
+      @extend %links;
+      color: $white;
+    }
+  }
+
+  .sidebar-header {
+    @include margin ($top: 20px, $left: 20px);
+  }
+
+  .components {
+    @include margin ($top: 10px, $left: 17px);
+
+    .components-link {
+      @extend %links;
+    }
+
+    .collapse-components {
+      @include collapse;
+    }
+  }
+
+  .utilities {
+    @extend %sidebar;
+
+    .utilitie-link {
+      @extend %links;
+    }
+
+    .utility-style {
+      @include collapse;
+    }
+  }
+
+  .addon-header {}
+
+  .pages {
+    @include margin ($top: 10px, $left: 17px);
+
+    .pages-link {
+      @extend %links;
+    }
+
+    .page-style {
+      @include collapse;
+    }
+  }
+
+  .charts {
+    @include margin ($top: 20px, $left: 20px);
+
+    .charts-link {
+      @extend %links;
+    }
+  }
+
+  .tables {
+    @include margin ($top: 20px, $left: 20px);
+
+    .tables-link {
+      @extend %links;
+    }
+  }
+
+  .border-top {
+    @include margin ($top: 20px, $left: 20px);
+    border-top: 1px solid $white;
+  }
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  color: #9c9c9c;
+}
+/******************************content**********************/
+
+body {
+  background-color: $background;
+}
+/* Main grid */

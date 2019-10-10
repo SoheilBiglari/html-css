@@ -1,0 +1,230 @@
+body{
+
+    font-family: 'Sanchez', serif;
+    background-image: url("images/boleyncinemas_background.jpg");
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a.active {
+    background-color: darkgray ;
+
+}
+
+h2,
+h3 {
+    color: #34495e;
+    padding: 20px;
+    font-size: 20px;
+}
+figure img {
+    width: 250px;
+    height: 100px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 4%;
+    overflow: hidden;
+    background-color: slategray;
+    width: 92%;
+    position: relative;
+    margin-top: 15px;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#firs-nav li a:hover {
+    background-color: #111;
+}
+.nav-container li a{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*======================
+   nav container
+======================== */
+.nav-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 45%;
+    margin-left: 27.5%;
+    line-height: 50px;
+    box-shadow:0px 0px 14px 0px rgba(0,0,0,0.75);
+    background: slategray;
+}
+.nav-container  ul{
+    list-style-type: none;
+    margin: 2%;
+    padding: 15px;
+}
+.nav-container a:hover{
+    zoom: initial;
+    color: white;
+}
+
+/*===================================
+        FLEX CONTAINER PLAYING NOW
+ ====================================*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.child {
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+
+}
+h2{
+    margin-left: 10%;
+    color: white;
+}
+p{
+    color: white;
+}
+.flex-container div p{
+    font-size: large;
+}
+.flex-container img:hover{
+    -webkit-transform: scale(0.01);
+    transform: scale(1.1);
+}
+/*====================
+FLEX-CONTAINER COMING SOON
+ ======================*/
+.flex-container-coming-soon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.child1{
+    text-align: center;
+    margin:15px;
+    font-size: 30px;
+}
+.flex-container-coming-soon div p{
+    font-size: large;
+}
+.flex-container-coming-soon img:hover{
+    -webkit-transform: scale(0.01);
+    transform: scale(1.1);
+}
+
+/*=========================
+    FLEX-CONTAINER-FAMILY
+=========================== */
+.flex-container-family{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.child2{
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+
+}
+.flex-container-family div p{
+    font-size: large;
+}
+.flex-container-family img:hover{
+    -webkit-transform: scale(0.01);
+    transform: scale(1.1);
+}
+
+/*===================
+    Promotions
+ ====================*/
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
+
+.header1 {
+    grid-area: header1;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 300px  100px  100px;
+    grid-template-areas:
+            "sidebar header1 "
+            "sidebar content";
+    margin-left: 30%;
+
+
+    padding: 2%;
+    width: 36%;
+}
+.box {
+    margin-top:10%;
+    padding: 0;
+    font-size: 150%;
+}
+div.box.header1{
+    margin-top: 20%;
+}
+h3 {
+    margin-left: 44%;
+    width: 6.5%;
+    color: aqua;
+
+}
+.section{
+    background-color: black;
+}
+.header {
+    margin-top: 3%;
+
+}
+
+@media screen and (max-width:769px) {
+    ul.first-nav.responsive {position: relative;}
+    ul.first-nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .first-nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}

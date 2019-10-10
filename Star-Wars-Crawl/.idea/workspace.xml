@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ce37012-1464-4070-a0f6-b8c5ba2057f7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../CSS Zengarden/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSS Zengarden/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS Zengarden/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSS Zengarden/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grid chessboard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Grid chessboard/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flexbox-minefield/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flexbox-minefield/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flexbox-minefield/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../flexbox-minefield/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multipage-application-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../multipage-application-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multipage-application-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../multipage-application-master/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../responsive-cinema-page/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../responsive-cinema-page/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../responsive-cinema-page/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../responsive-cinema-page/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sasspanel-master/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sasspanel-master/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sasspanel-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sasspanel-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sasspanel-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../sasspanel-master/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1S0M29cCBPjkOucwIx3TVijzflz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ce37012-1464-4070-a0f6-b8c5ba2057f7" name="Default" comment="" />
+      <created>1561448025142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561448025142</updated>
+      <workItem from="1561448026329" duration="4980000" />
+      <workItem from="1561465120240" duration="2000" />
+      <workItem from="1561467141425" duration="203000" />
+      <workItem from="1561469494106" duration="33000" />
+      <workItem from="1570695850992" duration="73000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

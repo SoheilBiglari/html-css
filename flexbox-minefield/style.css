@@ -1,0 +1,121 @@
+body{
+    background: linear-gradient(#000066,grey);
+    height: 1000px;
+    font-size: x-large;
+}
+
+.flex-container {
+    padding: 0;
+
+    list-style:none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    width: 800px;
+    margin-left: 25%;
+    margin-top: 5%;
+    border: 1px solid black;
+    box-shadow: 10px 10px 15px black;
+
+
+}
+.flex-container > div {
+
+    width: 100px;
+    padding:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 1px dashed black;
+    box-sizing: border-box;
+}
+.bomb{
+    width: 40px;
+    position: center;
+    height: 40px;
+}
+
+.inside-div{
+    box-shadow: 2px 2px 4px red;
+}
+.shadow{
+    -webkit-box-shadow: inset 1px 1px 5px 6px rgba(189,187,189,1);
+    -moz-box-shadow: inset 1px 1px 5px 6px rgba(189,187,189,1);
+    box-shadow: inset 1px 1px 5px 6px rgba(189,187,189,1);
+}
+
+.font{
+    font-family: "Franklin Gothic Book";
+    color: white;
+}
+#one:hover{
+    background-image: url("Bomb-PNG-Pic.png");
+    background-size: 105px;
+    align-content: center;
+}
+#twelef:hover{
+    background-image: url("Bomb-PNG-Pic.png");
+    background-size: 105px;
+
+}
+#two:hover{
+    background-image: url("Bomb-PNG-Pic.png");
+    background-size: 105px;
+}
+#nine:hover{
+    background-image: url("Bomb-PNG-Pic.png");
+    background-size: 105px;
+}
+#four:hover{
+    background-image: url("Bomb-PNG-Pic.png");
+    background-size: 105px;
+}
+
+
+/*hover kardane rangha*/
+#three{
+    color: rgba(0,0,0,0);
+}
+#three:hover{
+    color: rgba(255,255,255,0.8);
+}
+#five:hover{
+    color:rgba(255,255,255,0.8);
+}
+#five {
+    color: rgba(0, 0, 0, 0);
+}
+#six:hover{
+    color:rgba(255,255,255,0.8);
+}
+#six {
+    color: rgba(0, 0, 0, 0);
+}
+#seven:hover{
+    color:rgba(255,255,255,0.8);
+}
+#seven{
+    color: rgba(0, 0, 0, 0);
+}
+#eight:hover{
+    color:rgba(255,255,255,0.8);
+}
+#eight {
+    color: rgba(0, 0, 0, 0);
+}
+#ten:hover{
+    color:rgba(255,255,255,0.8);
+}
+#ten {
+    color: rgba(0, 0, 0, 0);
+}
+#eleven:hover{
+    color:rgba(255,255,255,0.8);
+}
+#eleven {
+    color: rgba(0, 0, 0, 0);
+}
