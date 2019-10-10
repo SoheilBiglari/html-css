@@ -9,3 +9,6 @@ BeCode javascript projecten
 * [The-basics-of-Bootstrap](https://soheilbiglari.github.io/html-css/The-basics-of-Bootstrap/Exercises-4/index.html)
 * [flexbox-minefield](https://soheilbiglari.github.io/html-css/flexbox-minefield/flex-box.html)
 * [multipage-application-master](https://soheilbiglari.github.io/html-css/multipage-application-master/index.html)(group project)
+* [responsive-cinema-page](https://soheilbiglari.github.io/html-css/responsive-cinema-page/index.html)
+
+
